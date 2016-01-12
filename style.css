@@ -1,0 +1,41 @@
+
+body {
+font-family: 'Montserrat';
+
+
+background: #DD5E89;
+background: -webkit-linear-gradient(to left, #DD5E89 , #F7BB97); 
+background: linear-gradient(to left, #DD5E89 , #F7BB97); 
+         }
+#content {background: white; width: 500px; margin: 50px auto; height: 500px;}
+
+fieldset{border: none;margin-left: 40px;top:90px;position: relative;}
+
+textarea{width: 90%;
+		 height: 100px;
+		 margin: 10px auto;}
+
+input {
+  width: 85%;
+  margin: 10px auto;
+  height: 50px;
+  padding: 0 15px 2px;
+  background: white;
+  border: 2px solid #ebebeb;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 -2px #ebebeb;
+  box-shadow: inset 0 -2px #ebebeb;
+}
+input:focus {
+  border-color: #F7BB97;
+  outline: none;
+  -webkit-box-shadow: inset 0 -2px #F7BB97;
+  }
+
+ .button {position: relative; top:110px;left: 40px;}
+
+ .alert {text-align: center;position: relative;
+ 	top:40px;}
+
+ .bouton_admin {position: relative; text-align: center; top:200px;
+ 				left: 220px;}
